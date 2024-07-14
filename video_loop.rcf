@@ -1,0 +1,1 @@
+def_route -prior_net {ddr3_ctrl/DDR3_ip/ddrphy_ioclk_gate} -load {ddr3_ctrl/DDR3_ip/u_ipsxb_ddrphy_pll_0/u_pll_e3/goppll:CLKOUT0_SYN; ddr3_ctrl/DDR3_ip/u_ipsxb_ddrphy_pll_1/u_pll_e3/goppll:CLKOUT0_SYN; } 
