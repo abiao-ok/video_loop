@@ -1,0 +1,1 @@
+vsim -gui -do E:\FPGA\Pango\PGL50H\DDR3_RAM\ipcore\DDR3_ip\sim\modelsim\sim.tcl

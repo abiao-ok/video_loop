@@ -1,0 +1,226 @@
+# ** Warning: (vsim-53) Cannot suppress or change severity level of message number 1.
+# vsim -suppress 3486,3680,3781 "+nowarn1" -c -sva -lib work ddr_test_top_tb -l sim.log 
+# Start time: 14:37:16 on Apr 05,2023
+# Loading sv_std.std
+# Loading work.ddr_test_top_tb
+# Loading work.DDR3_RAM
+# Loading work.wfifo_ctrl
+# Loading work.wfifo
+# Loading work.ipml_fifo_v1_6_wfifo
+# Loading work.ipml_sdpram_v1_6_wfifo
+# Loading work.ipml_fifo_ctrl_v1_3
+# Loading work.rfifo_ctrl
+# Loading work.rfifo
+# Loading work.ipml_fifo_v1_6_rfifo
+# Loading work.ipml_sdpram_v1_6_rfifo
+# Loading work.DDR3_rw_ctrl
+# Loading work.wfifo_v_unit
+# Loading work.DDR3_ip
+# Loading work.ipsxb_rst_sync_v1_1
+# Loading work.GTP_CLKBUFG
+# Loading work.ipsxb_ddrphy_pll_v1_0
+# Loading work.GTP_PLL_E3
+# Loading work.GTP_IOCLKBUF
+# Loading work.GTP_IOCLKDIV
+# Loading work.ipsxb_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_fifo_v1_0_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_sdpram_v1_0_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_fifo_ctr_v1_0
+# Loading work.DDR3_ip_ddrphy_top
+# Loading work.GTP_DLL
+# Loading work.ipsxb_ddrphy_slice_top_v1_4
+# Loading work.GTP_OSERDES
+# Loading work.GTP_OUTBUFT
+# Loading work.GTP_OUTBUFTCO
+# Loading work.GTP_GRS
+# Loading work.ddr3
+# Loading work.GTP_DRM9K
+# Loading work.GTP_DDC_E1
+# Loading work.GTP_IOBUFCO
+# Loading work.GTP_IOBUF
+# Loading work.GTP_IODELAY
+# Loading work.GTP_ISERDES
+# ** Warning: (vsim-3017) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(82): [TFMPC] - Too few port connections. Expected 34, found 33.
+#    Time: 0 fs  Iteration: 0  Instance: /ddr_test_top_tb/DDR3_RAM_D0 File: E:/FPGA/Pango/PGL50H/DDR3_RAM/DDR3_RAM.v
+# ** Warning: (vsim-3722) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(82): [TFMPC] - Missing connection for port 'ddr_init_done'.
+# ** Warning: (vsim-3017) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(308): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 fs  Iteration: 0  Instance: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrphy_pll_1 File: ./../../rtl/pll/ipsxb_ddrphy_pll_v1_0.v
+# ** Warning: (vsim-3722) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(308): [TFMPC] - Missing connection for port 'clkout1'.
+# ** Warning: (vsim-3017) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(387): [TFMPC] - Too few port connections. Expected 51, found 49.
+#    Time: 0 fs  Iteration: 0  Instance: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top File: nofile
+# ** Warning: (vsim-3722) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(387): [TFMPC] - Missing connection for port 'ddr_zqcs_req'.
+# ** Warning: (vsim-3722) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(387): [TFMPC] - Missing connection for port 'ddr_zqcs_ack'.
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[0]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[1]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[2]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[3]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[4]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[5]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[6]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[7]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3017) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(462): [TFMPC] - Too few port connections. Expected 57, found 56.
+#    Time: 0 fs  Iteration: 0  Instance: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ddrphy_top File: E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip_ddrphy_top.v
+# ** Warning: (vsim-3722) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(462): [TFMPC] - Missing connection for port 'dfi_error'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0]/u_ddrphy_data_slice/<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1]/u_ddrphy_data_slice/<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2]/u_ddrphy_data_slice/<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: Design size of 11626 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/ddr_pll_lock
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/ddr_init_done
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/clk_50M
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rst_n
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/wr_clk
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/wr_vld
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/wr_data
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/wr_addr
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_clk
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_req
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_id
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_addr
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/almost_full
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_busy
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_data
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_vld
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/almost_empty
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_empty
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_rst_n
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_ck
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_ck_n
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_cke
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_cs_n
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_ras_n
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_cas_n
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_we_n
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_odt
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_a
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_ba
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_dqs
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_dqs_n
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_dq
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/mem_dm
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/wr_water_level
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_busy_D0
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rd_busy_D1
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/wfifo_rden
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/wfifo_rcount
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/wfifo_rdata
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/rfifo_wcount
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/ddrphy_clkin
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_awaddr
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_awuser_ap
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_awuser_id
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_awlen
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_awvalid
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_awready
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_wdata
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_wstrb
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_wready
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_wusero_id
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_wusero_last
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_araddr
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_aruser_ap
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_aruser_id
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_arlen
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_arready
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_arvalid
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_rdata
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_rid
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_rlast
+add wave -position end  sim:/ddr_test_top_tb/DDR3_RAM_D0/axi_rvalid
+run -all
+restart
+# ** Warning: (vsim-3017) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(82): [TFMPC] - Too few port connections. Expected 34, found 33.
+#    Time: 0 fs  Iteration: 0  Instance: /ddr_test_top_tb/DDR3_RAM_D0 File: E:/FPGA/Pango/PGL50H/DDR3_RAM/DDR3_RAM.v
+# ** Warning: (vsim-3722) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(82): [TFMPC] - Missing connection for port 'ddr_init_done'.
+# ** Warning: (vsim-3017) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(308): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 fs  Iteration: 0  Instance: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrphy_pll_1 File: ./../../rtl/pll/ipsxb_ddrphy_pll_v1_0.v
+# ** Warning: (vsim-3722) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(308): [TFMPC] - Missing connection for port 'clkout1'.
+# ** Warning: (vsim-3017) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(387): [TFMPC] - Too few port connections. Expected 51, found 49.
+#    Time: 0 fs  Iteration: 0  Instance: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top File: nofile
+# ** Warning: (vsim-3722) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(387): [TFMPC] - Missing connection for port 'ddr_zqcs_req'.
+# ** Warning: (vsim-3722) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(387): [TFMPC] - Missing connection for port 'ddr_zqcs_ack'.
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[0]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[1]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[2]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[3]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[4]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[5]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[6]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/PRE_PASS_LOOP[7]/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ipsxb_ddrc_top/<protected>/<protected>/<protected> File: nofile
+# ** Warning: (vsim-3017) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(462): [TFMPC] - Too few port connections. Expected 57, found 56.
+#    Time: 0 fs  Iteration: 0  Instance: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ddrphy_top File: E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip_ddrphy_top.v
+# ** Warning: (vsim-3722) E:/FPGA/Pango/PGL50H/DDR3_RAM/ipcore/DDR3_ip/DDR3_ip.v(462): [TFMPC] - Missing connection for port 'dfi_error'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0]/u_ddrphy_data_slice/<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1]/u_ddrphy_data_slice/<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 fs  Iteration: 0  Protected: /ddr_test_top_tb/DDR3_RAM_D0/DDR3_ip_D0/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2]/u_ddrphy_data_slice/<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# End time: 14:46:56 on Apr 05,2023, Elapsed time: 0:09:40
+# Errors: 0, Warnings: 66
